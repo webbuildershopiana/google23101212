@@ -71,7 +71,7 @@
 
 <style type="text/css">
 
-* { box-sizing: border-box; } body {margin: 0;}.pin_container{grid-template-columns:repeat(auto-fill, 250px);grid-auto-rows:10px;}.card{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:15px;margin-right:10px;margin-bottom:15px;margin-left:10px;overflow-x:hidden;overflow-y:hidden;border-top-left-radius:16px !important;border-top-right-radius:16px !important;border-bottom-right-radius:16px !important;border-bottom-left-radius:16px !important;}.gallery-img{object-fit:cover;}.card_small{grid-row-end:span 26;}.card_medium{grid-row-end:span 33;}.card_large{grid-row-end:span 45;}
+* { box-sizing: border-box; } body {margin: 0;}*{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-family:Quicksand, sans-serif;}body{background-image:initial;background-position-x:initial;background-position-y:initial;background-size:initial;background-repeat-x:initial;background-repeat-y:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:rgb(255, 255, 255);}.container{position:relative;width:100%;display:flex;}.container .box{position:relative;height:100vh;width:20%;transition-behavior:normal;transition-duration:0.5s;transition-timing-function:ease;transition-property:all;transition-delay:0.5s;overflow-x:hidden;overflow-y:hidden;}.container:hover .box{width:10%;}.container .box:hover{width:60%;transition-delay:0s;}.container .box:nth-child(1){background-image:url("https://bruxellesnature.be/wp-content/uploads/2021/01/Nature-Bruxelloise.jpg");background-repeat-x:initial;background-repeat-y:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;background-size:cover;background-position-x:center;background-position-y:center;}.container .box:nth-child(2){background-image:url("https://ds1.static.rtbf.be/article/image/1920xAuto/0/2/6/5158331da8919cb9d4c3a58f35c39fa6-1577806294.jpg");background-repeat-x:initial;background-repeat-y:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;background-size:cover;background-position-x:center;background-position-y:center;}.container .box:nth-child(3){background-image:url("https://www.pariszigzag.fr/wp-content/uploads/2019/05/escapades-nature-pariszigzag.jpg");background-repeat-x:initial;background-repeat-y:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;background-size:cover;background-position-x:center;background-position-y:center;}.container .box:nth-child(4){background-image:url("https://kpbs.media.clients.ellingtoncms.com/img/croppedphotos/2020/10/13/AgeOfNature_DSC01760_t800.JPG?90232451fbcadccc64a17de7521d859a8f88077d");background-repeat-x:initial;background-repeat-y:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;background-size:cover;background-position-x:center;background-position-y:center;}.container .box:nth-child(5){background-image:url("https://loveincorporated.blob.core.windows.net/contentimages/gallery/03211459-0607-4d07-8a6c-9966e3820a7d-Mount-Kirkjufell-Iceland.jpg");background-repeat-x:initial;background-repeat-y:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;background-size:cover;background-position-x:center;background-position-y:center;}.container .box .content{position:absolute;left:20px;right:20px;bottom:20px;transform:translateY(120%);transition-behavior:normal;transition-duration:0.5s;transition-timing-function:ease;transition-property:all;transition-delay:0s;background-image:initial;background-position-x:initial;background-position-y:initial;background-size:initial;background-repeat-x:initial;background-repeat-y:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:rgba(0, 0, 0, 0.6);color:rgb(255, 255, 255);padding-top:20px;padding-right:40px;padding-bottom:20px;padding-left:40px;box-sizing:border-box;text-align:center;}.container .box:hover .content{transform:translateY(0px);transition-delay:0.5s;}.container .box .content h1{font-size:25px;margin-bottom:10px;}.container .box .content p{font-size:17px;}
 
 </style>
 
@@ -79,53 +79,39 @@
 		<html>
  <head></head>
  <body>
-  <div id="irjp">
-   <section class="position-relative py-5 bg-white">
-    <div class="container text-center">
-     <h1>Image Gallery</h1>
-     <p class="px-lg-5 px-md-3 px-2 mb-4 mt-2">There may be no better way to communicate what we do than through images. As you browse our site, take a few moments to let your eyes linger here, and see if you can get a feel for our signature touch.</p>
-    </div>
-    <div class="position-relative">
-     <div class="pin_container p-0 w-100 d-grid justify-content-center">
-      <div class="card card_small">
-       <img src="https://images.pexels.com/photos/1674049/pexels-photo-1674049.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_small">
-       <img src="https://images.pexels.com/photos/2721507/pexels-photo-2721507.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_medium">
-       <img src="https://images.pexels.com/photos/700413/pexels-photo-700413.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 img-fluid">
-      </div>
-      <div class="card card_large">
-       <img src="https://images.pexels.com/photos/2764400/pexels-photo-2764400.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_medium">
-       <img src="https://images.pexels.com/photos/375882/pexels-photo-375882.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_small">
-       <img src="https://images.pexels.com/photos/808506/pexels-photo-808506.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_medium">
-       <img src="https://images.pexels.com/photos/37079/milan-pegasus-gallery-statue.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_large">
-       <img src="https://images.pexels.com/photos/5273512/pexels-photo-5273512.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_small">
-       <img src="https://images.pexels.com/photos/5473229/pexels-photo-5473229.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_medium">
-       <img src="https://images.pexels.com/photos/3416065/pexels-photo-3416065.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_large">
-       <img src="https://images.pexels.com/photos/18250526/pexels-photo-18250526/free-photo-of-people-in-art-museum.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;lazy=load" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
-      <div class="card card_large">
-       <img src="https://images.pexels.com/photos/18250532/pexels-photo-18250532/free-photo-of-paintings-exhibition-in-art-gallery.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;lazy=load" alt="gallery-img" class="w-100 h-100 img-fluid gallery-img">
-      </div>
+  <div id="ilhh">
+   <div class="container">
+    <div class="box">
+     <div class="content">
+      <h1>What is Lorem Ipsum ?</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
      </div>
     </div>
-   </section>
+    <div class="box">
+     <div class="content">
+      <h1>What is Lorem Ipsum ?</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+     </div>
+    </div>
+    <div class="box">
+     <div class="content">
+      <h1>What is Lorem Ipsum ?</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+     </div>
+    </div>
+    <div class="box">
+     <div class="content">
+      <h1>What is Lorem Ipsum ?</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+     </div>
+    </div>
+    <div class="box">
+     <div class="content">
+      <h1>What is Lorem Ipsum ?</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+     </div>
+    </div>
+   </div>
   </div>
  </body>
 </html>
